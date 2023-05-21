@@ -1,0 +1,61 @@
+{
+    "lnd": {
+        "flag": true,
+        "node": {
+            "alias": "alice",
+            "host": "127.0.0.1",
+            "port": 10001
+        },
+        "routes": [
+            {
+                "origin": "03e5ea171ad14080f14affdc5eb59596634680f881949f09637c2c13b731476a12",
+                "destiny": "02a082f89b7ff89f33458b447de32481aacacc90832e0fd8f0405ce1d632af0a4f",
+                "amount": 945
+            },
+            {
+                "origin": "02002710b6366605ec85b39895d16275ac3f58456b3b2c046180d0beb865c02e6a",
+                "destiny": "0279c22f6bada22908adbc267f2af405b70b51ae76ced4d20c792e0221cc075da9",
+                "amount": 1018
+            }
+        ]
+    },
+    "eclair": {
+        "flag": true,
+        "node": {
+            "host": "localhost",
+            "port": 8283,
+            "user": "",
+            "passwd": "eclairpw"
+        },
+        "routes": [
+            {
+                "origin": "0279c22f6bada22908adbc267f2af405b70b51ae76ced4d20c792e0221cc075da9",
+                "destiny": "032b453095876d66a0b2ee40c24755f216a0b2d554e484202cc39060d0fac71e31",
+                "amount": 1041
+            },
+            {
+                "origin": "0279c22f6bada22908adbc267f2af405b70b51ae76ced4d20c792e0221cc075da9",
+                "destiny": "0350b47d0829b7c19d62b1fcb9f2283f041aa142d84700d03405f9ac03a4d5f591",
+                "amount": 1086
+            }
+        ]
+    },
+    "c-lightning": {
+        "flag": true,
+        "node": {
+            "alias": "erin"
+        },
+        "routes": [
+            {
+                "origin": "03a14475f3bc24565b39839ac98698027d0048862e50aa723e70d7ff3b4df30e49",
+                "destiny": "02dd2a465ab4152e4e99c1d9c9557087e95aeb18d22fdedd7c576f2eb15cd1fe53",
+                "amount": 989
+            },
+            {
+                "origin": "0265cd3ce0cba073cfee5a4b89220fcce5b8833e6b5001f354b43671ba95f5dc7c",
+                "destiny": "02dd2a465ab4152e4e99c1d9c9557087e95aeb18d22fdedd7c576f2eb15cd1fe53",
+                "amount": 1398
+            }
+        ]
+    }
+}
